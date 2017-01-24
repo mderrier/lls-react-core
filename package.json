@@ -4,23 +4,31 @@
   "description": "Metamodule contains: react, react-addons-, react-dom, react-router, redux, react-redux, react-router-redux, redux-saga",
   "main": "index.js",
   "repository": {
-     "type": "git",
-     "url": "https://github.com/mderrier/lls-react-core"
-  }
+    "type": "git",
+    "url": "https://github.com/mderrier/lls-react-core"
+  },
   "author": "mderrier",
   "license": "MIT",
   "dependencies": {
     "react": "15.3.1",
-    "react-dom": "15.3.1"
+    "react-dom": "15.3.1",
     "react-addons-pure-render-mixin": "15.3.1",
     "react-addons-transition-group": "15.3.1",
-    "react-dom": "15.3.1",
     "react-redux": "4.4.6",
     "react-router": "2.8.1",
     "react-router-redux": "4.0.7",
     "redux": "3.6.0",
     "redux-saga": "0.11.1",
     "reselect": "2.5.4"
-    
+  },
+  "scripts": {
+    "postinstall": "npm i 'verbose/verb#dev' verb-generate-readme -g",
+    "preversion": "verb readme --silent"
+  },
+  "verb": {
+    "reflinks": [
+      "package.dependencies",
+      "pkg.name"
+    ]
   }
 }
