@@ -11,9 +11,9 @@
   "license": "MIT",
   "dependencies": {
     "react": "15.3.1",
-    "react-dom": "15.3.1",
     "react-addons-pure-render-mixin": "15.3.1",
     "react-addons-transition-group": "15.3.1",
+    "react-dom": "15.3.1",
     "react-redux": "4.4.6",
     "react-router": "2.8.1",
     "react-router-redux": "4.0.7",
@@ -25,5 +25,8 @@
   "scripts": {
     "precommit": "readme",
     "postinstall": "npm i readme-generator -g"
+  },
+  "devDependencies": {
+    "husky": "^0.13.1"
   }
 }
