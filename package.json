@@ -1,14 +1,19 @@
 {
   "name": "lls-react-core",
-  "version": "1.0.0",
   "description": "Metamodule contains: react, react-addons-, react-dom, react-router, redux, react-redux, react-router-redux, redux-saga",
+  "homepage": "https://github.com/mderrier/lls-react-core#readme",
+  "version": "1.0.1",
   "main": "index.js",
+  "author": {
+    "name": "mderrier"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mderrier/lls-react-core"
+    "url": "git+https://github.com/mderrier/lls-react-core.git"
   },
-  "author": "mderrier",
-  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mderrier/lls-react-core/issues"
+  },
   "dependencies": {
     "react": "15.3.1",
     "react-addons-pure-render-mixin": "15.3.1",
@@ -22,11 +27,12 @@
     "redux-saga": "0.11.1",
     "reselect": "2.5.4"
   },
-  "scripts": {
-    "precommit": "readme && git add README.md",
-    "postinstall": "npm i readme-generator -g"
-  },
   "devDependencies": {
     "husky": "^0.13.1"
-  }
+  },
+  "scripts": {
+    "postinstall": "npm i readme-generator -g",
+    "precommit": "readme && git add README.md"
+  },
+  "license": "MIT"
 }
