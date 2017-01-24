@@ -2,7 +2,7 @@
   "name": "lls-react-core",
   "description": "Metamodule contains: react, react-addons-, react-dom, react-router, redux, react-redux, react-router-redux, redux-saga",
   "homepage": "https://github.com/mderrier/lls-react-core#readme",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "author": {
     "name": "mderrier"
