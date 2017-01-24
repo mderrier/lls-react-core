@@ -26,9 +26,19 @@
     "preversion": "verb readme --silent"
   },
   "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
     "reflinks": [
       "package.dependencies",
-      "pkg.name"
-    ]
+      "pkg.name",
+      "verb",
+      "verb-generate-readme"
+    ],
+    "related": {
+      "list": []
+    }
   }
 }
