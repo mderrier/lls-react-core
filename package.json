@@ -18,27 +18,12 @@
     "react-router": "2.8.1",
     "react-router-redux": "4.0.7",
     "redux": "3.6.0",
+    "redux-form": "4.2.2",
     "redux-saga": "0.11.1",
     "reselect": "2.5.4"
   },
   "scripts": {
-    "postinstall": "npm i 'verbose/verb#dev' verb-generate-readme -g",
-    "preversion": "verb readme --silent"
-  },
-  "verb": {
-    "toc": false,
-    "layout": "default",
-    "tasks": [
-      "readme"
-    ],
-    "reflinks": [
-      "package.dependencies",
-      "pkg.name",
-      "verb",
-      "verb-generate-readme"
-    ],
-    "related": {
-      "list": []
-    }
+    "precommit": "readme",
+    "postinstall": "npm i readme-generator -g"
   }
 }
