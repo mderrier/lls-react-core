@@ -23,7 +23,7 @@
     "reselect": "2.5.4"
   },
   "scripts": {
-    "precommit": "readme",
+    "precommit": "readme && git add README.md",
     "postinstall": "npm i readme-generator -g"
   },
   "devDependencies": {
