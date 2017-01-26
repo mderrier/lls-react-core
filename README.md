@@ -2,15 +2,12 @@
 
 Metamodule contains: react, react-addons-, react-dom, react-router, redux, react-redux, react-router-redux, redux-saga
 
-## Installation
-
-```sh
-npm install lls-react-core --save
-```
 
 
 ## Dependencies
 
+- **0.8.8** [fbjs](https://www.npmjs.com/package/fbjs)
+- **2.1.2** [history](https://www.npmjs.com/package/history)
 - **15.3.1** [react](https://www.npmjs.com/package/react)
 - **15.3.1** [react-addons-pure-render-mixin](https://www.npmjs.com/package/react-addons-pure-render-mixin)
 - **15.3.1** [react-addons-transition-group](https://www.npmjs.com/package/react-addons-transition-group)
