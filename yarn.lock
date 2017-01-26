@@ -46,6 +46,16 @@ escape-string-regexp@^1.0.2:
   version "1.0.5"
   resolved "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
+fbjs@0.7.2:
+  version "0.7.2"
+  resolved "https://registry.npmjs.org/fbjs/-/fbjs-0.7.2.tgz#4cf9a389aa23dbdfa2aed858e673c9b1b3ee0e0f"
+  dependencies:
+    core-js "^1.0.0"
+    isomorphic-fetch "^2.1.1"
+    loose-envify "^1.0.0"
+    promise "^7.1.1"
+    ua-parser-js "^0.7.9"
+
 fbjs@^0.8.4:
   version "0.8.8"
   resolved "https://registry.npmjs.org/fbjs/-/fbjs-0.8.8.tgz#02f1b6e0ea0d46c24e0b51a2d24df069563a5ad6"
@@ -68,7 +78,7 @@ has-ansi@^2.0.0:
   dependencies:
     ansi-regex "^2.0.0"
 
-history@^2.1.2:
+history@2.1.2, history@^2.1.2:
   version "2.1.2"
   resolved "https://registry.npmjs.org/history/-/history-2.1.2.tgz#4aa2de897a0e4867e4539843be6ecdb2986bfdec"
   dependencies:
