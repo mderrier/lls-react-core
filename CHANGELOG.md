@@ -1,3 +1,11 @@
+<a name="1.0.3"></a>
+## 1.0.3 (2017-01-26)
+
+* feat(doc): add auto-generated documentation ([0966fb5](https://github.com/mderrier/lls-react-core/commit/0966fb5))
+* feat(doc): add auto-generated documentation ([335f9ef](https://github.com/mderrier/lls-react-core/commit/335f9ef))
+
+
+
 <a name="1.0.2"></a>
 ## 1.0.2 (2017-01-24)
 
